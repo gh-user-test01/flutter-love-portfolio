@@ -75,20 +75,6 @@ const SkillsSection = () => {
               </Card>
             ))}
           </div>
-
-          {/* Specialty Callout */}
-          <div className="mt-16">
-            <Card className="border-primary/20 bg-gradient-to-r from-primary/5 to-primary-glow/5">
-              <CardContent className="p-8 text-center">
-                <h3 className="text-2xl font-bold mb-4 text-primary">Flutter Specialist</h3>
-                <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                  With deep expertise in Flutter development, I specialize in creating cross-platform applications 
-                  that deliver native performance and beautiful user experiences. From state management to custom 
-                  animations, I love pushing the boundaries of what's possible with Flutter.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
         </div>
       </div>
     </section>

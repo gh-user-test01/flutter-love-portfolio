@@ -123,11 +123,6 @@ const ExperienceSection = () => {
                     </div>
                   </div>
                 </CardContent>
-
-                {/* Timeline connector for first item */}
-                {index === 0 && (
-                  <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-0.5 h-8 bg-gradient-to-b from-primary to-primary-glow"></div>
-                )}
               </Card>
             ))}
           </div>
